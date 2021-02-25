@@ -199,7 +199,7 @@ indices = torch.randperm(len(train_dataset)).tolist()
 
 train_data_loader = DataLoader(
     train_dataset,
-    batch_size=8,
+    batch_size=4,
     shuffle=False,
     num_workers=4,
     collate_fn=collate_fn
@@ -207,7 +207,7 @@ train_data_loader = DataLoader(
 
 valid_data_loader = DataLoader(
     valid_dataset,
-    batch_size=8,
+    batch_size=4,
     shuffle=False,
     num_workers=4,
     collate_fn=collate_fn
