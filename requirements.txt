@@ -4,3 +4,4 @@ matplotlib==3.3.4
 numba==0.52.0
 opencv-python==4.5.1.48
 pandas==1.2.2
+ensemble-boxes==1.0.4
